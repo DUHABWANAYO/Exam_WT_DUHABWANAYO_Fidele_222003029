@@ -1,0 +1,40 @@
+<html>
+<head>
+  <!-- Linking to external stylesheet -->
+  <link rel="stylesheet" type="text/css" href="style.css" title="style 1" media="screen, tv, projection, handheld, print"/>
+  <!-- Defining character encoding -->
+  <meta charset="utf-8">
+  <!-- Setting viewport for responsive design -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Register to our System</title>
+  
+<body>
+  <center>
+    <h2>User Registration Form</h2>
+    <form action="register.php" method="post">
+        <label>UserID:</label>
+        <input type="number" name="UserID" required><br><br>
+        <label>FirstName:</label>
+        <input type="text" name="firstname" required><br><br>
+        <label>LastName:</label>
+        <input type="text" name="lastname" required><br><br>
+        <label>Username:</label>
+        <input type="text" name="username" required><br><br>
+        <label>Email:</label>
+        <input type="email" name="email" required><br><br>
+        <label>Telephone:</label>
+        <input type="text" name="telephone" required><br><br>
+        <label>Password:</label>
+        <input type="password" name="password" required><br><br>
+        <label>creationdate:</label>
+        <input type="Date" name="creationdate" required><br><br>
+        <label>activation_code:</label>
+        <input type="text" name="activation_code" required><br><br>
+        <label>Is_activated:</label>
+        <input type="text" name="Is_activated" required><br><br>
+        <input type="submit" name="register" value="register">
+    </form>
+  </center>
+</body>
+
+</html>
